@@ -3,7 +3,6 @@ spring:
     name: shri-app-gateway
 server:
   port: 9000
-
 #zuul:
 #  routes:
 #    first:
