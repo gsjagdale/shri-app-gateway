@@ -3,12 +3,7 @@ spring:
     name: shri-app-gateway
 server:
   port: 9000
-eureka:
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    service-url:
-      defaultZone: http://shri-app-registry-git-gsjagdale-dev.apps.sandbox.x8i5.p1.openshiftapps.com/eureka
+
 #zuul:
 #  routes:
 #    first:
