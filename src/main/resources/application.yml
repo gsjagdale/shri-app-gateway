@@ -8,7 +8,8 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     service-url:
-      defaultZone: http://shri-app-registry-git-gsjagdale-dev.apps.sandbox.x8i5.p1.openshiftapps.com/eureka
+      #defaultZone: http://shri-app-registry-git-gsjagdale-dev.apps.sandbox.x8i5.p1.openshiftapps.com/eureka
+      defaultZone: http://localhost:8761/eureka
 #zuul:
 #  routes:
 #    first:
