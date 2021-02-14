@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      #uri: http://localhost:9090
+      uri: http://shri-app-config-server-git-gsjagdale-dev.apps.sandbox.x8i5.p1.openshiftapps.com
